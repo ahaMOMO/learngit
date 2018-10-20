@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>饭卡登陆页面</title>
+		<link type="text/css" rel="stylesheet" href="../css/CardLogin.css" />
+	</head>
+	
+	<body>
+		<img src="../img/bg_1.png" class="img"/>
+		<div id="Login">
+			<h1>Sign in</h1>
+			<div id="snoBorder">
+				<img src="../img/icon_people.png" alt=""/>
+				<input type="text" value="学号" maxlength="12" id="sno"/>
+			</div>
+			<div id="pasBorder">
+				<img src="../img/icon_key.png" alt=""/>
+				<input type="text" maxlength="12" id="tpsw" value="密码（初始密码为身份证后6位）"/>
+				<input type="password" maxlength="12" id="password" value=""/>
+			</div>
+			<span id="tip"> </span>
+			<button>登陆</button>
+			<div id="footer">
+				<div id="nextLogin">
+					<img src="../img/bg.png" />
+					<span>下次自动登陆</span>
+				</div>
+				<a href="#">忘记密码</a>
+			</div>
+		</div>
+		
+		<script src="../js/jquery-1.8.0.min.js"></script>
+		<script src="../js/CardLogin.js"></script>
+		
+	</body>
+</html>
